@@ -42,6 +42,9 @@ body {font-family: 'Baloo Chettan 2', cursive; font-weight: normal; font-style: 
 .fullscreen-banner h1 {
     margin-top: 5vh;
 }
+.modal-open .modal {
+    z-index: 99999;
+}
 /* ------------------------
     Typography
 ------------------------*/
