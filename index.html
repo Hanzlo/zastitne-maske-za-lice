@@ -50,7 +50,7 @@
 	<link href="css/fer.css" rel="stylesheet" type="text/css" />
 
 	<!-- inject css end -->
-
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body class="home-2">
@@ -203,10 +203,10 @@
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<form id="contact-form" method="post" action="contact_send.php" novalidate="true">
+						<form method="post" action="contact_send.php">
 							<div class="messages"></div>
 							<div class="row">
-								<div class="col-md-12">
+								<div class="col-md-6">
 									<div class="form-group">
 										<label>Vaše ime i prezime</label>
 										<input id="form_name" type="text" name="name" class="form-control"
@@ -254,7 +254,7 @@
 										<div class="help-block with-errors"></div>
 									</div>
 								</div>
-								<div class="col-md-12 p-0"> <div class="g-recaptcha" data-sitekey="6LcbLeMUAAAAAImIiIosr_D7KnOFLbg5OsGT1RU_"></div></div>
+								<div class="col-md-12 mt-2 mb-2"> <div class="g-recaptcha" data-sitekey="6LcbLeMUAAAAAImIiIosr_D7KnOFLbg5OsGT1RU_"></div></div>
 
 								<div class="col-md-12 mt-2">
 									<button  type="submit" class="btn btn-theme btn-circle"
