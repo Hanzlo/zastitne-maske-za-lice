@@ -39,7 +39,9 @@
 
 body {font-family: 'Baloo Chettan 2', cursive; font-weight: normal; font-style: normal; font-size: 16px; line-height: 1.5; color:#5f5f5f; letter-spacing: 1px;}
 
-
+.fullscreen-banner h1 {
+    margin-top: 5vh;
+}
 /* ------------------------
     Typography
 ------------------------*/
