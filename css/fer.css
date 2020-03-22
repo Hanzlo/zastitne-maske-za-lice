@@ -1,0 +1,202 @@
+p {
+  font-size: 18px;
+}
+
+.lead {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.section-title p {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.modal-header p {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.modal-body textarea.form-control {
+  height: 100px;
+}
+
+.featured-item.style-1:hover .featured-icon i,
+.featured-item.style-2:hover .featured-icon i,
+.featured-item.style-6:hover .featured-icon i {
+  color: #e2012c;
+}
+
+.tab.style-2 .nav-tabs .nav-link i::after {
+  background: #014dda;
+  border-radius: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+  width: 100%;
+  z-index: -1;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+.navbar .btn:hover span {
+  color: white;
+}
+
+.modal-content.form-modal {
+  border: none;
+  border-top: 10px solid #e1381b;
+  border-radius: 8px;
+  -webkit-box-shadow: inset 0 -1px 20px 0px #f1f1f1;
+          box-shadow: inset 0 -1px 20px 0px #f1f1f1;
+  -webkit-transition: all .1s linear;
+  transition: all .1s linear;
+  /* padding: 10px 25px; */
+  font-weight: 600;
+  color: #1a366c;
+  font-size: 14px;
+  text-shadow: 0 0 0.65px rgba(255, 255, 255, 0), 0 0 0.65px rgba(255, 255, 255, 0);
+}
+
+.modal-content.form-modal .form-control {
+  /* min-height: 45px; */
+  -webkit-box-shadow: inset 0 -1px 20px 0px #f1f1f1;
+          box-shadow: inset 0 -1px 20px 0px #f1f1f1;
+  -webkit-transition: all .1s linear;
+  transition: all .1s linear;
+  color: #1a366c;
+  font-size: 14px;
+  text-shadow: 0 0 0.65px rgba(255, 255, 255, 0), 0 0 0.65px rgba(255, 255, 255, 0);
+  border: solid 1px rgba(26, 54, 108, 0.07);
+}
+
+/*** FORM AND FORM CHECKBOX ***/
+/*** CHECKBOX ***/
+/* Hide the browser's default checkbox */
+.container2 {
+  position: relative;
+}
+
+.container2 input {
+  left: 0;
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.container2 .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border: 1px solid rgba(206, 212, 218, 0.6);
+  margin-right: 0;
+  border-radius: 2px;
+}
+
+.container2.container-input {
+  margin-left: 30px;
+}
+
+/* On mouse-over, add a grey background color */
+/* When the checkbox is checked, add a blue background */
+.container2 input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.container2 .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container2 input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container2 .checkmark:after {
+  left: 5px;
+  top: 3px;
+  width: 7px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.radio label,
+.checkbox label {
+  padding-left: 30px;
+}
+
+.checkboxlight {
+  font-weight: 700;
+}
+
+.modal-privola-text {
+  text-align: justify;
+  font-size: 12px;
+  margin-bottom: 0.25rem;
+  display: block;
+  color: #1a366c;
+  text-shadow: 0 0 0.65px rgba(255, 255, 255, 0), 0 0 0.65px rgba(255, 255, 255, 0);
+  font-weight: 600;
+}
+
+.appointmentModal .modal-privola-text a {
+  background: transparent;
+  border: none;
+  -webkit-transition: all .16s linear;
+  transition: all .16s linear;
+}
+
+.appointmentModal .modal-privola-text a:hover {
+  opacity: 1;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  background: transparent;
+  text-decoration: none;
+  border: none;
+}
+
+.team-link {
+  color: #ffffff;
+  background: #014dda;
+}
+
+.team-member.style-2 .team-description {
+  display: block;
+}
+
+.help-block.with-errors {
+  position: absolute;
+  color: red;
+  right: 15px;
+  font-size: 14px;
+  line-height: 14px;
+  margin-top: 5px;
+}
+
+.featured-desc p {
+  margin-bottom: 0;
+  letter-spacing: 0;
+  font-size: 17px;
+  line-height: 24px;
+}
+/*# sourceMappingURL=fer.css.map */
